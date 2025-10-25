@@ -14,7 +14,7 @@ interface Plugin {
 
 // Define constant arrays with types
 const FEATURES: Feature[] = [
-    { name: 'Next.js 16 (Beta)' },
+    { name: 'Next.js 16' },
     { name: 'React 19' },
     { name: 'Typescript 5' },
     { name: 'Tailwind CSS 4' },
