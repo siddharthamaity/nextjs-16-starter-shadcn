@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HRjfabi3E3A=",
+  "dgSpecHash": "p2deElqom/s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\Worker\\Worker.csproj",
+  "projectFilePath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\Worker\\Worker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\charles\\.nuget\\packages\\rabbitmq.client\\7.0.0\\rabbitmq.client.7.0.0.nupkg.sha512",
     "C:\\Users\\charles\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",

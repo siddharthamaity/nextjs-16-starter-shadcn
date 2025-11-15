@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\charles\\repos\\event-driven-project\\services\\RPCClient\\RPCClient.csproj": {}
+    "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\RPCClient\\RPCClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\charles\\repos\\event-driven-project\\services\\RPCClient\\RPCClient.csproj": {
+    "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\RPCClient\\RPCClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-project\\services\\RPCClient\\RPCClient.csproj",
+        "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\RPCClient\\RPCClient.csproj",
         "projectName": "RPCClient",
-        "projectPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\RPCClient\\RPCClient.csproj",
+        "projectPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\RPCClient\\RPCClient.csproj",
         "packagesPath": "C:\\Users\\charles\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\RPCClient\\obj\\",
+        "outputPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\RPCClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\charles\\AppData\\Roaming\\NuGet\\NuGet.Config"

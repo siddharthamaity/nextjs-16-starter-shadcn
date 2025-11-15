@@ -141,11 +141,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-project\\services\\ReceiveLogsTopic\\ReceiveLogsTopic.csproj",
+      "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\ReceiveLogsTopic\\ReceiveLogsTopic.csproj",
       "projectName": "ReceiveLogsTopic",
-      "projectPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\ReceiveLogsTopic\\ReceiveLogsTopic.csproj",
+      "projectPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\ReceiveLogsTopic\\ReceiveLogsTopic.csproj",
       "packagesPath": "C:\\Users\\charles\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\ReceiveLogsTopic\\obj\\",
+      "outputPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\ReceiveLogsTopic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\charles\\AppData\\Roaming\\NuGet\\NuGet.Config"

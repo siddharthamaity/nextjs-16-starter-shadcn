@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\charles\\repos\\event-driven-project\\services\\Worker\\Worker.csproj": {}
+    "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\Worker\\Worker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\charles\\repos\\event-driven-project\\services\\Worker\\Worker.csproj": {
+    "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\Worker\\Worker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-project\\services\\Worker\\Worker.csproj",
+        "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\Worker\\Worker.csproj",
         "projectName": "Worker",
-        "projectPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\Worker\\Worker.csproj",
+        "projectPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\Worker\\Worker.csproj",
         "packagesPath": "C:\\Users\\charles\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\Worker\\obj\\",
+        "outputPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\Worker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\charles\\AppData\\Roaming\\NuGet\\NuGet.Config"

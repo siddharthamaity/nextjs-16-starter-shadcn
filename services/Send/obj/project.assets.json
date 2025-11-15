@@ -141,11 +141,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-project\\services\\Send\\Send.csproj",
+      "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\Send\\Send.csproj",
       "projectName": "Send",
-      "projectPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\Send\\Send.csproj",
+      "projectPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\Send\\Send.csproj",
       "packagesPath": "C:\\Users\\charles\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\Send\\obj\\",
+      "outputPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\Send\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\charles\\AppData\\Roaming\\NuGet\\NuGet.Config"

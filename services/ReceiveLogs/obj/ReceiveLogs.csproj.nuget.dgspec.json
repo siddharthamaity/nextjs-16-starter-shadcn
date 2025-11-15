@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\charles\\repos\\event-driven-project\\services\\ReceiveLogs\\ReceiveLogs.csproj": {}
+    "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\ReceiveLogs\\ReceiveLogs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\charles\\repos\\event-driven-project\\services\\ReceiveLogs\\ReceiveLogs.csproj": {
+    "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\ReceiveLogs\\ReceiveLogs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-project\\services\\ReceiveLogs\\ReceiveLogs.csproj",
+        "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\ReceiveLogs\\ReceiveLogs.csproj",
         "projectName": "ReceiveLogs",
-        "projectPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\ReceiveLogs\\ReceiveLogs.csproj",
+        "projectPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\ReceiveLogs\\ReceiveLogs.csproj",
         "packagesPath": "C:\\Users\\charles\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\ReceiveLogs\\obj\\",
+        "outputPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\ReceiveLogs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\charles\\AppData\\Roaming\\NuGet\\NuGet.Config"

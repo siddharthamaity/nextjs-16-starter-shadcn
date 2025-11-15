@@ -141,11 +141,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-project\\services\\EmitLogTopic\\EmitLogTopic.csproj",
+      "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\EmitLogTopic\\EmitLogTopic.csproj",
       "projectName": "EmitLogTopic",
-      "projectPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\EmitLogTopic\\EmitLogTopic.csproj",
+      "projectPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\EmitLogTopic\\EmitLogTopic.csproj",
       "packagesPath": "C:\\Users\\charles\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\EmitLogTopic\\obj\\",
+      "outputPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\EmitLogTopic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\charles\\AppData\\Roaming\\NuGet\\NuGet.Config"

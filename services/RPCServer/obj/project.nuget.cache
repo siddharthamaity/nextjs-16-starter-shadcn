@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "namLAL7at6w=",
+  "dgSpecHash": "z+sjD4FugAY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\RPCServer\\RPCServer.csproj",
+  "projectFilePath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\RPCServer\\RPCServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\charles\\.nuget\\packages\\rabbitmq.client\\7.0.0\\rabbitmq.client.7.0.0.nupkg.sha512",
     "C:\\Users\\charles\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",

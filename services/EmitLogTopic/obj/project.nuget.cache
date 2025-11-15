@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DfF4lwenvps=",
+  "dgSpecHash": "y/54Kf7pOYI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\EmitLogTopic\\EmitLogTopic.csproj",
+  "projectFilePath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\EmitLogTopic\\EmitLogTopic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\charles\\.nuget\\packages\\rabbitmq.client\\7.0.0\\rabbitmq.client.7.0.0.nupkg.sha512",
     "C:\\Users\\charles\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",

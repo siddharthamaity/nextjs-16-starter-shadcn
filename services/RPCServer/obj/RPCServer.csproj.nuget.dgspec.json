@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\charles\\repos\\event-driven-project\\services\\RPCServer\\RPCServer.csproj": {}
+    "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\RPCServer\\RPCServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\charles\\repos\\event-driven-project\\services\\RPCServer\\RPCServer.csproj": {
+    "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\RPCServer\\RPCServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-project\\services\\RPCServer\\RPCServer.csproj",
+        "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\RPCServer\\RPCServer.csproj",
         "projectName": "RPCServer",
-        "projectPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\RPCServer\\RPCServer.csproj",
+        "projectPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\RPCServer\\RPCServer.csproj",
         "packagesPath": "C:\\Users\\charles\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\RPCServer\\obj\\",
+        "outputPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\RPCServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\charles\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\charles\\repos\\event-driven-project\\services\\PublisherConfirms\\PublisherConfirms.csproj": {}
+    "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\PublisherConfirms\\PublisherConfirms.csproj": {}
   },
   "projects": {
-    "C:\\Users\\charles\\repos\\event-driven-project\\services\\PublisherConfirms\\PublisherConfirms.csproj": {
+    "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\PublisherConfirms\\PublisherConfirms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-project\\services\\PublisherConfirms\\PublisherConfirms.csproj",
+        "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\PublisherConfirms\\PublisherConfirms.csproj",
         "projectName": "PublisherConfirms",
-        "projectPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\PublisherConfirms\\PublisherConfirms.csproj",
+        "projectPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\PublisherConfirms\\PublisherConfirms.csproj",
         "packagesPath": "C:\\Users\\charles\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\PublisherConfirms\\obj\\",
+        "outputPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\PublisherConfirms\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\charles\\AppData\\Roaming\\NuGet\\NuGet.Config"

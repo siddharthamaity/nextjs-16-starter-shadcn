@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\charles\\repos\\event-driven-project\\services\\NewTask\\NewTask.csproj": {}
+    "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\NewTask\\NewTask.csproj": {}
   },
   "projects": {
-    "C:\\Users\\charles\\repos\\event-driven-project\\services\\NewTask\\NewTask.csproj": {
+    "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\NewTask\\NewTask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-project\\services\\NewTask\\NewTask.csproj",
+        "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\NewTask\\NewTask.csproj",
         "projectName": "NewTask",
-        "projectPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\NewTask\\NewTask.csproj",
+        "projectPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\NewTask\\NewTask.csproj",
         "packagesPath": "C:\\Users\\charles\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\NewTask\\obj\\",
+        "outputPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\NewTask\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\charles\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\charles\\repos\\event-driven-project\\services\\Receive\\Receive.csproj": {}
+    "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\Receive\\Receive.csproj": {}
   },
   "projects": {
-    "C:\\Users\\charles\\repos\\event-driven-project\\services\\Receive\\Receive.csproj": {
+    "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\Receive\\Receive.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-project\\services\\Receive\\Receive.csproj",
+        "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\Receive\\Receive.csproj",
         "projectName": "Receive",
-        "projectPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\Receive\\Receive.csproj",
+        "projectPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\Receive\\Receive.csproj",
         "packagesPath": "C:\\Users\\charles\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\Receive\\obj\\",
+        "outputPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\Receive\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\charles\\AppData\\Roaming\\NuGet\\NuGet.Config"

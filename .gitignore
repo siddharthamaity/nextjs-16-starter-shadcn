@@ -1,0 +1,50 @@
+﻿# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+out/
+
+# NuGet
+*.nupkg
+# Packages folder (if using packages restore)
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# ASP.NET Core
+appsettings.*.json
+secrets.json
+
+# Docker
+docker-compose.override.yml
+**/docker-compose.override.yml
+*.log
+
+# Node (for front-end projects inside repo)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Others
+*.pid
+*.seed
+*.sqlite

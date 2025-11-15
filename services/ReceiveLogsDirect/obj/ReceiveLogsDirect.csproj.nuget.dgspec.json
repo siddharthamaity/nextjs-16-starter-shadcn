@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\charles\\repos\\event-driven-project\\services\\ReceiveLogsDirect\\ReceiveLogsDirect.csproj": {}
+    "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\ReceiveLogsDirect\\ReceiveLogsDirect.csproj": {}
   },
   "projects": {
-    "C:\\Users\\charles\\repos\\event-driven-project\\services\\ReceiveLogsDirect\\ReceiveLogsDirect.csproj": {
+    "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\ReceiveLogsDirect\\ReceiveLogsDirect.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-project\\services\\ReceiveLogsDirect\\ReceiveLogsDirect.csproj",
+        "projectUniqueName": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\ReceiveLogsDirect\\ReceiveLogsDirect.csproj",
         "projectName": "ReceiveLogsDirect",
-        "projectPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\ReceiveLogsDirect\\ReceiveLogsDirect.csproj",
+        "projectPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\ReceiveLogsDirect\\ReceiveLogsDirect.csproj",
         "packagesPath": "C:\\Users\\charles\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\charles\\repos\\event-driven-project\\services\\ReceiveLogsDirect\\obj\\",
+        "outputPath": "C:\\Users\\charles\\repos\\event-driven-experiment\\services\\ReceiveLogsDirect\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\charles\\AppData\\Roaming\\NuGet\\NuGet.Config"
