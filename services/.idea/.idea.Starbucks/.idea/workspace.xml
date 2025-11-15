@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c2df236-93d9-4312-9f76-91a520ede775" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.nuget/NuGet.Config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuget/NuGet.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuget/NuGet.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Barista/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Barista/CashierRegistry.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Barista/CashierSaga.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Barista/CashierService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Barista/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Barista/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Barista/Starbucks.Cashier.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Barista/packages.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Cashier/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Cashier/BaristaService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Cashier/DrinkPreperationSaga.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Cashier/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Cashier/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Cashier/Starbucks.Barista.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Cashier/packages.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Customer/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Customer/OrderDrinkForm.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Customer/OrderDrinkForm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Customer/OrderDrinkForm.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Customer/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Customer/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Customer/Properties/Resources.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Customer/Properties/Resources.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Customer/Properties/Settings.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Customer/Properties/Settings.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Customer/Resources/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Customer/Resources/logo_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Customer/Starbucks.Customer.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Customer/packages.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Messages/DrinkReadyMessage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Messages/NewOrderMessage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Messages/PaymentCompleteMessage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Messages/PaymentDueMessage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Messages/PaymentType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Messages/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Messages/Starbucks.Messages.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Messages/SubmitPaymentMessage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.Messages/packages.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starbucks.sln" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="35WPyHO7aya6IuZDaYz9wPvqZeC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "restructure-for-services",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c2df236-93d9-4312-9f76-91a520ede775" name="Changes" comment="" />
+      <created>1763223107959</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763223107959</updated>
+      <workItem from="1763223110193" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
