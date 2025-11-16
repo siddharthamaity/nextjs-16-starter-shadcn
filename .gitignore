@@ -10,6 +10,8 @@ bin/
 obj/
 out/
 
+.env
+
 # NuGet
 *.nupkg
 # Packages folder (if using packages restore)

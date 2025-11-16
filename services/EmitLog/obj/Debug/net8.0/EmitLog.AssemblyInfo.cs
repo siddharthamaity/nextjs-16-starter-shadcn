@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmitLog")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ae3b2977a8398c5c7e45317981ab841f1dbaee4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b254906fdd94d5a2edc1b90da4d1ca45125d0fac")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmitLog")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmitLog")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
