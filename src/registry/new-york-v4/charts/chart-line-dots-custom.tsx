@@ -61,6 +61,10 @@ export function ChartLineDotsCustom() {
                             dot={({ cx, cy, payload }) => {
                                 const r = 24;
 
+                                // cx and cy are typed as possibly undefined by Recharts' types.
+                                // Guard against undefined to satisfy TypeScript and avoid NaN at runtime.
+                                if (typeof cx !== 'number' || typeof cy !== 'number') return null;
+
                                 return (
                                     <GitCommitVertical
                                         key={payload.month}
