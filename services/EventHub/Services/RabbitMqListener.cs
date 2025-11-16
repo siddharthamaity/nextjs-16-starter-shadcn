@@ -1,34 +1,28 @@
 ﻿using System;
-using RabbitMQ.Client;
-using RabbitMQ.Client.Events;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
-using EventHub.Services;
-using EventHub.Models;
 using EventHub.Config;
+using EventHub.Models;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using RabbitMQ.Client;
+using RabbitMQ.Client.Events;
 
 namespace EventHub.Services;
 
-public class RabbitMqListener
+public class RabbitMqListener(
+    ILogger<RabbitMqListener> logger,
+    MessageDispatcher dispatcher,
+    IOptions<RabbitMqConfig> options)
+    : BackgroundService
 {
-    private readonly ILogger<RabbitMqListener> _logger;
-    private readonly MessageDispatcher _dispatcher;
-    private readonly RabbitMqConfig _config;
+    private readonly RabbitMqConfig _config = options.Value;
 
-    public RabbitMqListener(ILogger<RabbitMqListener> logger, MessageDispatcher dispatcher,
-        IOptions<RabbitMqConfig> options)
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        _logger = logger;
-        _dispatcher = dispatcher;
-        _config = options.Value;
-        _ = StartListeningAsync(); // fire-and-forget
-    }
-
-    private async Task StartListeningAsync()
-    {
-        _logger.LogInformation("[*] RabbitMQ listener starting. Waiting for messages...");
+        logger.LogInformation("Starting RabbitMQ listener...");
 
         var factory = new ConnectionFactory
         {
@@ -36,38 +30,46 @@ public class RabbitMqListener
             UserName = _config.UserName,
             Password = _config.Password
         };
-
-        await using var connection = await factory.CreateConnectionAsync();
-        await using var channel = await connection.CreateChannelAsync();
+        
+        var connection = await factory.CreateConnectionAsync(stoppingToken);
+        var channel = await connection.CreateChannelAsync(cancellationToken: stoppingToken);
 
         await channel.QueueDeclareAsync(
             queue: _config.QueueName,
             durable: false,
             exclusive: false,
             autoDelete: false,
-            arguments: null
-        );
+            arguments: null,
+            cancellationToken: stoppingToken);
 
         var consumer = new AsyncEventingBasicConsumer(channel);
+
         consumer.ReceivedAsync += async (model, ea) =>
         {
-            var body = ea.Body.ToArray();
-            var messageText = Encoding.UTF8.GetString(body);
-            _logger.LogInformation("Received message: {Message}", messageText);
+            var text = Encoding.UTF8.GetString(ea.Body.ToArray());
+            logger.LogInformation("Received: {Text}", text);
 
-            var message = new Message
-            {
-                Text = messageText,
-                Timestamp = DateTime.UtcNow
-            };
-
-            await _dispatcher.DispatchAsync(message);
+            await dispatcher.DispatchAsync(
+                new Message { Text = text, Timestamp = DateTime.UtcNow });
         };
 
         await channel.BasicConsumeAsync(
             queue: _config.QueueName,
             autoAck: true,
-            consumer: consumer
-        );
+            consumer: consumer,
+            cancellationToken: stoppingToken);
+
+        // Keep the background service running
+        try
+        {
+            await Task.Delay(Timeout.Infinite, stoppingToken);
+        }
+        catch (TaskCanceledException)
+        {
+            // Normal on shutdown
+        }
+        
+        await channel.CloseAsync(cancellationToken: stoppingToken);
+        await connection.CloseAsync(cancellationToken: stoppingToken);
     }
 }

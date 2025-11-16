@@ -14,7 +14,7 @@ builder.Services.AddSignalR();
 
 // Add RabbitMqListener & MessageDispatcher as singletons
 builder.Services.AddSingleton<MessageDispatcher>();
-builder.Services.AddSingleton<RabbitMqListener>();
+builder.Services.AddHostedService<RabbitMqListener>();
 
 var app = builder.Build();
 

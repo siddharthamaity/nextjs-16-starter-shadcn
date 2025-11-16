@@ -29,6 +29,8 @@ artifacts/
 appsettings.*.json
 secrets.json
 
+*.cache
+
 # Docker
 docker-compose.override.yml
 **/docker-compose.override.yml
