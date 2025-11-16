@@ -19,19 +19,39 @@ public class RabbitMqListener(
     : BackgroundService
 {
     private readonly RabbitMqConfig _config = options.Value;
-
-    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+    
+    private async Task<IConnection> TryConnectAsync(CancellationToken stoppingToken)
     {
-        logger.LogInformation("Starting RabbitMQ listener...");
-
         var factory = new ConnectionFactory
         {
             HostName = _config.HostName,
             UserName = _config.UserName,
             Password = _config.Password
         };
-        
-        var connection = await factory.CreateConnectionAsync(stoppingToken);
+
+        for (var i = 0; i < 10; i++)
+        {
+            try
+            {
+                logger.LogInformation("Attempting to connect to RabbitMQ (try {Try})...", i + 1);
+                return await factory.CreateConnectionAsync(stoppingToken);
+            }
+            catch (Exception ex)
+            {
+                logger.LogWarning(ex, "RabbitMQ not ready, retrying in 3 seconds...");
+                await Task.Delay(3000, stoppingToken);
+            }
+        }
+
+        throw new Exception("Failed to connect to RabbitMQ after multiple attempts.");
+    }
+
+
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+    {
+        logger.LogInformation("Starting RabbitMQ listener...");
+
+        var connection = await TryConnectAsync(stoppingToken);
         var channel = await connection.CreateChannelAsync(cancellationToken: stoppingToken);
 
         await channel.QueueDeclareAsync(
