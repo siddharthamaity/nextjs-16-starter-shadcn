@@ -234,15 +234,12 @@ export function FormDemo() {
                                                 <FormItem key={item.id} className='flex items-start gap-3'>
                                                     <FormControl>
                                                         <Checkbox
-                                                            checked={field.value?.includes(item.id)}
+                                                            checked={field.value?.includes(item.id) ?? false}
                                                             onCheckedChange={(checked) => {
+                                                                const current = field.value ?? [];
                                                                 return checked
-                                                                    ? field.onChange([...field.value, item.id])
-                                                                    : field.onChange(
-                                                                          field.value?.filter(
-                                                                              (value) => value !== item.id
-                                                                          )
-                                                                      );
+                                                                    ? field.onChange([...current, item.id])
+                                                                    : field.onChange(current.filter((value) => value !== item.id));
                                                             }}
                                                         />
                                                     </FormControl>
