@@ -239,7 +239,9 @@ export function FormDemo() {
                                                                 const current = field.value ?? [];
                                                                 return checked
                                                                     ? field.onChange([...current, item.id])
-                                                                    : field.onChange(current.filter((value) => value !== item.id));
+                                                                    : field.onChange(
+                                                                          current.filter((value) => value !== item.id)
+                                                                      );
                                                             }}
                                                         />
                                                     </FormControl>
