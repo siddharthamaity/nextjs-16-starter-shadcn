@@ -78,7 +78,7 @@
         "@next/eslint-plugin-next": "16.1.1",
         "@tailwindcss/postcss": "^4.1.18",
         "@trivago/prettier-plugin-sort-imports": "^6.0.1",
-        "@types/node": "^25.0.3",
+        "@types/node": "^25.0.7",
         "@types/react": "19.2.7",
         "@types/react-dom": "19.2.3",
         "baseline-browser-mapping": "^2.9.11",
