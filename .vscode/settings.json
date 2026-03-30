@@ -1,8 +1,6 @@
 {
-    // JS
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    // TS
-    "typescript.updateImportsOnFileMove.enabled": "always",
+    // JS & TS
+    "js/ts.updateImportsOnFileMove.enabled": "always",
     // JSON
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
@@ -30,5 +28,5 @@
         "typescriptreact"
     ],
     "eslint.format.enable": true,
-    "npm.packageManager": "npm",
+    "npm.packageManager": "pnpm",
 }

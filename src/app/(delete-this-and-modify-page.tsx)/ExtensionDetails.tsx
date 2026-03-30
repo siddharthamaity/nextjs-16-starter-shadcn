@@ -1,24 +1,24 @@
 import Link from 'next/link';
 
 const RECOMMENDED_EXTENSIONS: string[] = [
-    "PulkitGangwar.nextjs-snippets", // ? https://marketplace.visualstudio.com/items?itemName=PulkitGangwar.nextjs-snippets
-        "formulahendry.auto-close-tag", // ? https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag
-        "aaron-bond.better-comments", // ? https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments
-        "mikestead.dotenv", // ? https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
-        "EditorConfig.EditorConfig", // ? https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
-        "dbaeumer.vscode-eslint", // ? https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-        "MikeBovenlander.formate", // ? https://marketplace.visualstudio.com/items?itemName=MikeBovenlander.formate
-        "donjayamanne.githistory", // ? https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory
-        "wix.vscode-import-cost", // ? https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost
-        "sburg.vscode-javascript-booster", // ? https://marketplace.visualstudio.com/items?itemName=sburg.vscode-javascript-booster
-        "christian-kohler.npm-intellisense", // ? https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense
-        "esbenp.prettier-vscode", // ? https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
-        "codeandstuff.package-json-upgrade", // ? https://marketplace.visualstudio.com/items?itemName=codeandstuff.package-json-upgrade
-        "KnisterPeter.vscode-commitizen", // ? https://marketplace.visualstudio.com/items?itemName=KnisterPeter.vscode-commitizen
-        "yzhang.markdown-all-in-one", // ? https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
-        "bradlc.vscode-tailwindcss", // ? https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
-        "austenc.tailwind-docs", // ? https://marketplace.visualstudio.com/items?itemName=austenc.tailwind-docs
-        "stivo.tailwind-fold" // ? https://marketplace.visualstudio.com/items?itemName=stivo.tailwind-fold
+    'PulkitGangwar.nextjs-snippets', // ? https://marketplace.visualstudio.com/items?itemName=PulkitGangwar.nextjs-snippets
+    'formulahendry.auto-close-tag', // ? https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag
+    'aaron-bond.better-comments', // ? https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments
+    'mikestead.dotenv', // ? https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+    'EditorConfig.EditorConfig', // ? https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+    'dbaeumer.vscode-eslint', // ? https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+    'MikeBovenlander.formate', // ? https://marketplace.visualstudio.com/items?itemName=MikeBovenlander.formate
+    'donjayamanne.githistory', // ? https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory
+    'wix.vscode-import-cost', // ? https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost
+    'sburg.vscode-javascript-booster', // ? https://marketplace.visualstudio.com/items?itemName=sburg.vscode-javascript-booster
+    'christian-kohler.npm-intellisense', // ? https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense
+    'esbenp.prettier-vscode', // ? https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+    'codeandstuff.package-json-upgrade', // ? https://marketplace.visualstudio.com/items?itemName=codeandstuff.package-json-upgrade
+    'KnisterPeter.vscode-commitizen', // ? https://marketplace.visualstudio.com/items?itemName=KnisterPeter.vscode-commitizen
+    'yzhang.markdown-all-in-one', // ? https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
+    'bradlc.vscode-tailwindcss', // ? https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
+    'austenc.tailwind-docs', // ? https://marketplace.visualstudio.com/items?itemName=austenc.tailwind-docs
+    'stivo.tailwind-fold' // ? https://marketplace.visualstudio.com/items?itemName=stivo.tailwind-fold
 ];
 
 interface ExtensionStatistics {
