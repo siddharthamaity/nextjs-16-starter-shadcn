@@ -16,7 +16,7 @@ interface Plugin {
 const FEATURES: Feature[] = [
     { name: 'Next.js 16' },
     { name: 'React 19' },
-    { name: 'Typescript 5' },
+    { name: 'Typescript 6' },
     { name: 'Tailwind CSS 4' },
     {
         // ! ===================== DISCLAIMER =====================
@@ -32,7 +32,7 @@ const FEATURES: Feature[] = [
     { name: 'App Directory' },
     { name: 'System, Light & Dark Mode' },
     { name: 'Next Bundle Analyzer' },
-    { name: 'Dockerfile for Node.js 24.12.0 & Bun 1.3.5 (alpine)' }
+    { name: 'Dockerfile for Node.js 24.15.0 & Bun 1.3.14 (alpine)' }
 ];
 
 const ESLINT_PLUGINS: Plugin[] = [

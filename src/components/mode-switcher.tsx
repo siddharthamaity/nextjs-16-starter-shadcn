@@ -14,6 +14,7 @@ export function ModeSwitcher() {
     const { setMetaColor } = useMetaColor();
 
     const toggleTheme = React.useCallback(() => {
+        if (!resolvedTheme) return;
         setTheme(resolvedTheme === 'dark' ? 'light' : 'dark');
         setMetaColor(resolvedTheme === 'dark' ? META_THEME_COLORS.light : META_THEME_COLORS.dark);
     }, [resolvedTheme, setTheme, setMetaColor]);

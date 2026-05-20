@@ -64,7 +64,7 @@ const FormSchema = z.object({
             message: 'Bio must be at least 10 characters.'
         })
         .max(160, {
-            message: 'Bio must not be longer than 30 characters.'
+            message: 'Bio must not be longer than 160 characters.'
         }),
     email: z.string().email({ message: 'Please select an email to display.' }),
     type: z.enum(['all', 'mentions', 'none'], {
