@@ -28,5 +28,5 @@
         "typescriptreact"
     ],
     "eslint.format.enable": true,
-    "npm.packageManager": "pnpm",
+    "npm.packageManager": "bun run",
 }

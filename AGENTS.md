@@ -7,7 +7,7 @@ Guidance for AI coding agents working in this repository.
 ## Read First
 
 - Project overview and setup: [README.md](README.md)
-- Generated registry warning: [src/__registry__/README.md](src/__registry__/README.md)
+- Generated registry warning: [src/**registry**/README.md](src/__registry__/README.md)
 - Scripts and toolchain versions: [package.json](package.json)
 
 ## Tech Stack
@@ -28,30 +28,30 @@ Guidance for AI coding agents working in this repository.
 - App entry and global layout: [src/app](src/app)
 - Reusable demos/components: [src/components](src/components)
 - Source-of-truth shadcn registry UI primitives: [src/registry/new-york-v4/ui](src/registry/new-york-v4/ui)
-- Auto-generated registry artifacts: [src/__registry__](src/__registry__)
+- Auto-generated registry artifacts: [src/**registry**](src/__registry__)
 
 ## Do Not Edit
 
-- Files in [src/__registry__](src/__registry__) are generated. See [src/__registry__/README.md](src/__registry__/README.md).
+- Files in [src/**registry**](src/__registry__) are generated. See [src/**registry**/README.md](src/__registry__/README.md).
 
 ## Common Commands
 
-- Install dependencies: pnpm install
-- Start dev server: pnpm dev
-- Build production bundle: pnpm build
-- Run lint: pnpm lint
-- Auto-fix lint issues: pnpm lint:fix
-- Check formatting: pnpm format
-- Type check: pnpm type-check
+- Install dependencies: bun run install
+- Start dev server: bun run dev
+- Build production bundle: bun run build
+- Run lint: bun run lint
+- Auto-fix lint issues: bun run lint:fix
+- Check formatting: bun run format
+- Type check: bun run type-check
 
 ## Validation Before Finishing
 
-- Run pnpm lint
-- Run pnpm type-check
-- If behavior changed, run pnpm build
+- Run bun run lint
+- Run bun run type-check
+- If behavior changed, run bun run build
 
 ## Project-Specific Notes
 
-- The default starter page imports components from [src/app/(delete-this-and-modify-page.tsx)](src/app/(delete-this-and-modify-page.tsx)).
+- The default starter page imports components from [src/app/(delete-this-and-modify-page.tsx)](<src/app/(delete-this-and-modify-page.tsx)>).
 - For new product work, replace that area with domain-specific app routes/components.
 - Theme handling is wired in [src/app/layout.tsx](src/app/layout.tsx) via next-themes.
